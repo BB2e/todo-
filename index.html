@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>오늘의 할일</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/login.js" defer></script>
+    <script src="./js/time.js" defer></script>
+    <script src="./js/todos.js" defer></script>
+    <script src="./js/bg.js" defer></script>
+    <script src="./js/weather.js" defer></script>
+</head>
+
+<body>
+    <div class="wrap">
+        <div id="bgImg"></div>
+        <div id="content">
+            <div id="weather">
+                <span></span>
+                <span></span>
+            </div>
+
+            <div class="main">
+                <span id="time">00:00</span>
+
+                <p id="name">Hello, Arum !!</p>
+
+                <form id="new_login">
+                    <input id="loginInput" type="text" maxlength="10" placeholder="Hello, What is your name?" required>
+                </form>
+
+                <form id="todos">
+                    <input id="todoInput" type="text" maxlength="15" placeholder="Write your new To-Do here" required>
+                </form>
+                
+                <ul id="todolist">
+                    <!-- <li>
+                        <span>hello</span>
+                        <i class="x-icon"></i>
+                    </li> -->
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
